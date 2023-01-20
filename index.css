@@ -16,7 +16,7 @@ body {
         text-align: justify;
         /* Apply animation to this element */	
         animation: body 2s ease-out;
-        background-image: linear-gradient(to right, red , rgb(197, 200, 12));
+        background-image: linear-gradient(to right, rgb(12, 5, 5) , rgb(23, 96, 9));
         overflow-x: hidden;
 
        }
@@ -76,7 +76,8 @@ div {
 }
 .home button:hover {
     cursor: pointer;
-    background-image: linear-gradient(to right, rgb(199, 43, 12) , rgb(227, 169, 12));
+    background-image: linear-gradient(to right, rgb(3, 9, 6) , rgb(16, 206, 6));
+    color: #fff;
 
 }
 .home button .com {
@@ -101,8 +102,8 @@ div {
     background: #000;
 }
 .box:hover {
-    border: 3px solid red;
-    box-shadow: 2px 4px 12px red;
+    border: 3px solid rgb(0, 255, 72);
+    box-shadow: 2px 4px 12px rgb(25, 14, 14);
     cursor: pointer;
     transition: all;
 }
